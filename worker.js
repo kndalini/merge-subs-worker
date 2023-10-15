@@ -22,6 +22,14 @@ async function handleRequest(request) {
         'https://zebelkhan10.fallahpour25.workers.dev/sub/74f829f3-480b-4e7f-8039-9418d055375b',
         'https://tackserver-code.ir/api/json/VpnMaan.json',
         // Add more URLs as needed
+        'https://raw.githubusercontent.com/yaney01/telegram-collector/main/subscribe/networks/grpc',
+        'https://raw.githubusercontent.com/yaney01/telegram-collector/main/subscribe/networks/http',
+        'https://raw.githubusercontent.com/yaney01/telegram-collector/main/subscribe/networks/ws',
+        'https://raw.githubusercontent.com/yaney01/telegram-collector/main/subscribe/networks/tcp',
+        'https://raw.githubusercontent.com/yaney01/telegram-collector/main/subscribe/security/tls',
+        'https://raw.githubusercontent.com/yaney01/telegram-collector/main/subscribe/layers/ipv6',
+        'https://raw.githubusercontent.com/yaney01/telegram-collector/main/subscribe/security/non-tls',
+        'https://raw.githubusercontent.com/yaney01/telegram-collector/main/subscribe/layers/ipv4',
     ];
 
     // Fetch data from all URLs concurrently and store in an array
